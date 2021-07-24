@@ -8,6 +8,8 @@ API for workouts-generator
 - ExpressJS
 - MongoDB
 
+## Launch
+
 ``
 node ./index.js
 ``

@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 mongoose.Promise = global.Promise;
 
 // todo replace with environment variable
-const connectionUrl = "mongodb+srv://admin:admin@workouts-generator.xrm13.mongodb.net/workouts-generator?retryWrites=true&w=majority";
+const connectionUrl = "";
 mongoose.connect(connectionUrl, {
     useNewUrlParser: true,
     useFindAndModify: false,
